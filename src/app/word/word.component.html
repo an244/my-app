@@ -1,0 +1,10 @@
+<!-- tag h3 sẽ ẩn/hiện theo giá trị forget dc khai báo trong word.component.ts -->
+<h3 [hidden]="forget">{{en}}</h3>
+<p>{{vn}}</p>
+
+<!-- Cach 1:
+<img src= "{{imgUrl}}"> -->
+
+<!-- Cach 2: -->
+<img [src]= "imgUrl">
+<button (click)="toggleForget()"> Toggle forget</button>
